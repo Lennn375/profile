@@ -6,7 +6,8 @@ img {
 body {
   font-family: 'Open Sans', sans-serif;
   /* background-color: F2FFE9; */
-  background-color: rgb(12, 25, 18);
+  background-color: 86A789;
+  /* background-color: rgb(12, 25, 18); */
   color: 557C55;
   font-size: 15px;
 }
@@ -40,7 +41,7 @@ a:hover {
 
 
 .card {
-  /* background-color: FEFCF3;*/
+  /* background-color: FEFCF3; */
   background-color: F2FFE9;
   border: dotted 1px;
   border-radius: 10px;
@@ -52,7 +53,7 @@ a:hover {
 }
 
 .container {
-  margin: 100px 50px;
+  margin: 100px auto;
 }
 
 #list-inline >li {
@@ -60,6 +61,11 @@ a:hover {
   padding: 0 10px;
   /* padding-left: 0; */
   /* list-style: none; */
+}
+
+#list-center {
+  display: inline-block;
+  text-align: left;
 }
 
   @media (max-width: 1700px) {
@@ -77,14 +83,21 @@ a:hover {
 
 @media (max-width: 1200px) {
   .card {
-    width: 800px;
+    width: 700px;
     /* background-color: rgb(192, 100, 25); */
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 300px;
+    /* background-color: rgb(192, 0, 25); */
   }
 }
 
 @media (max-width: 500px) {
   .card {
-    width: 300px;
+    width: 200px;
     /* background-color: rgb(192, 0, 25); */
   }
 }
